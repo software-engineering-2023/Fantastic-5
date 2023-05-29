@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/usera.css">
+  <title>User Page</title>
+</head>
+
+<body>
+  <div class="background-image">
+  <div class="container">
+    <div class="user-container">
+      <h2>Welcome, <span id="username"></span>!</h2>
+      <button onclick="redirectToTech()">Technical issues reports</button>
+      <!-- <button onclick="redirectToCc()">Credit card issues reports</button> -->
+      
+    </div>
+  </div>
+
+  <script src="logina.js"></script>
+  <script>
+   
+    var urlParams = new URLSearchParams(window.location.search);
+    var username = urlParams.get('username');
+
+
+    document.getElementById("username").textContent = username;
+
+   
+    function redirectToTech() {
+      window.location.href = "techa.html";
+    }
+    // function redirectToCc() {
+    //   window.location.href = "cca.html";
+    // }
+  </script>
+  </div>
+</body>
+
+</html>

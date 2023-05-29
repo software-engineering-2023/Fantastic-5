@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Report Credit Card Theft/Loss/Damage</title>
+  <link rel="stylesheet" href="css/theft.css">
+</head>
+
+<body>
+  <div class="background-image">
+  <div class="container">
+    <h2>Report Credit Card Theft/Loss/Damage</h2>
+    <div class="report-container">
+      <form>
+        <label for="issue-type">Issue Type:</label>
+        <select id="issue-type" name="issue-type">
+          <option value="Theft">Theft</option>
+          <option value="Loss">Loss</option>
+          <option value="Damage">Damage</option>
+        </select>
+
+        <label for="description">Description:</label>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea>
+
+        <input type="submit" value="Submit" class="submit-button" onclick="showAlert()">
+      </form>
+    </div>
+    <button class="home-button" onclick="window.location.href='user.html'">Home Page</button>
+  </div>
+
+  <script>
+    function showAlert() {
+      alert("Report is received. We will answer shortly.");
+    }
+  </script>
+  </div>
+</body>
+
+</html>
+

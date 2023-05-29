@@ -1,0 +1,72 @@
+.background-image {
+  background-image: url("../rs/fan5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .report-card {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .report-card h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .report-card p {
+    margin: 5px 0;
+  }
+  
+  .reply-container {
+    margin-top: 20px;
+  }
+  
+  .reply-container label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .reply-container textarea {
+    width: 100%;
+    resize: vertical;
+    padding: 5px;
+  }
+  
+  .reply-container .reply-button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .reply-container .reply-button:hover {
+    background-color: #45a049;
+  }
+  

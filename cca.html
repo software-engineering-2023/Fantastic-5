@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Credit Card Reports</title>
+  <link rel="stylesheet" href="css/techa.css">
+  <script src="js/cca.js"></script>
+</head>
+<body>
+  <div class="background-image">
+  <div class="container">
+    <h2>Credit Card Reports</h2>
+    
+    <div class="report-card">
+      <h3>Theft Report</h3>
+      <p>Card Number: 1234 5678 9012 3456</p>
+      <p>Date: May 1, 2023</p>
+      <div class="reply-container">
+        <label for="reply-input-theft">Reply:</label>
+        <textarea id="reply-input-theft" rows="3"></textarea>
+        <button class="reply-button" onclick="sendReply('theft')">Send Reply</button>
+      </div>
+    </div>
+    
+    <div class="report-card">
+      <h3>Loss Report</h3>
+      <p>Card Number: 9876 5432 1098 7654</p>
+      <p>Date: April 15, 2023</p>
+      <div class="reply-container">
+        <label for="reply-input-loss">Reply:</label>
+        <textarea id="reply-input-loss" rows="3"></textarea>
+        <button class="reply-button" onclick="sendReply('loss')">Send Reply</button>
+      </div>
+    </div>
+    
+    <div class="report-card">
+      <h3>Damage Report</h3>
+      <p>Card Number: 4567 8901 2345 6789</p>
+      <p>Date: June 5, 2023</p>
+      <div class="reply-container">
+        <label for="reply-input-damage">Reply:</label>
+        <textarea id="reply-input-damage" rows="3"></textarea>
+        <button class="reply-button" onclick="sendReply('damage')">Send Reply</button>
+      </div>
+    </div>
+    <a class="home-button" href="userb.html">Home page</a>
+  </div>
+  </div>
+</body>
+</html>
